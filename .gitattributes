@@ -1,0 +1,9 @@
+# Enforce LF for text files
+* text=auto
+
+# Specific file types
+*.java text eol=lf
+*.properties text eol=lf
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.bat text eol=crlf
